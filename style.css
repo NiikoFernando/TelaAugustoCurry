@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+
+}
+.menu{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(54, 52, 52);
+}
+.menu1{
+    float: right; 
+    list-style: none;
+    font-size: 25px;
+    margin: 25px;
+
+}
+a {
+   text-decoration: none;
+   color:  white;
+   padding: 5px;
+   
+}
+/*Efeito para passar o cursor e mudar de cor ...*/
+a:hover{
+    border-radius: 10px;
+    background-color: rgb(22, 113, 126);
+}
+
+#oi{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/*Aqui Metemos a Nossa Primeira Letra q esta no Meno Como Grande e de uma cor diferente */
+#oi::first-letter{
+    margin: 5px;
+    font-size: 50px;
+    color: rgb(22, 113, 126) ;
+}
+.conteiner{
+    width: 1270px;
+    height: 540px;
+    margin: 5px;
+    background-color: rgb(54, 52, 52);
+}
+.conteiner2{
+    width: 1270px;
+    height: 85px;
+    margin: 5px;
+    background-color: rgb(54, 52, 52) ;
+}
+p{
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+    
+   
+}
+/*Aqui metemos a seleciuonador para q quando precionamos o cursor esquerdo e arrastamos ele vai selecionar o nosso paragrafo com as cor a baixo*/
+p::selection{
+    color: rgb(62, 61, 61);
+    background-color: rgb(22, 113, 126);
+}
+
+p::before{
+    content: '';
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-image: url(augusto-cury-2-l.jpg);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    margin: 10px;
+    display: flex cente;
+
+}
+
+
